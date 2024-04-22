@@ -19,7 +19,7 @@ const CardList = ({ titre, description, image }) => (
 const Cardlist = ({ data, name }) => {
   return (
     <div className=" mt-[-70px]">
-      <div className="text-center m-10 p-4 font-family:Kalnia ">
+      <div className="text-center m-10 py-[15px] font-family:Kalnia ">
         <div className="font-bold text-3xl text-gray-600 mt-[70px] mb-[-20px] bg-slate-300 p-[20px] backdrop-blur-sm bg-opacity-30 shadow-2xl rounded-xl m-[20px] w-[1250px]">
           <p className=" mb-[-30px] ml-[40px]mt-[60px] "> {name} </p>
           <div className="flex items-center justify-center mt-8"></div>
